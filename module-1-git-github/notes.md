@@ -17,12 +17,12 @@ In short, Git is the tracker, and GitHub is the storage.
 
 ## Key vocabulary (in your own words)
 
-- repository:
-- commit:
-- branch:
-- push / pull:
-- pull request:
-- merge conflict:
+- repository: the folder in GitHub where thae project is stored and what Git keeps track of.
+- commit: saves the changes made to a project in Git's history, which allows developers to easily go back to previous versions.
+- branch: an isolated workspace where developer can work on a project without affecting the main branch.
+- push / pull: push sends the commited changes to the remote repository, while pull is gets the latest changes from the remote repository to the local copy.
+- pull request: a request that asks other collaborators to review the pushed staged changes before merging it to the main project.
+- merge conflict: happens when two peope made changes in the same part of the file and pushed the commited changes to the repository
 
 ---
 
