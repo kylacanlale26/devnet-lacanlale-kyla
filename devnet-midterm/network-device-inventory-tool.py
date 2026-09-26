@@ -42,7 +42,16 @@ def view_devices(device_list):
 
 def count_active_inactive(device_list):
     # loop through, count Active vs Inactive, return both
-    pass
+    
+    device_list = devices.copy()
+
+    print("=== Count Active & Inactive Devices ===")
+
+    count_active = device_list.count("active")
+    count_inactive = device_list.count("inactive")
+
+    print(count_active)
+    print(count_inactive)
 
 def find_device(device_list):
     # ask for a name, search the list, print result or "not found"
