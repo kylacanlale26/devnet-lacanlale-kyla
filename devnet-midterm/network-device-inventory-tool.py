@@ -32,7 +32,13 @@ def add_device(device_list):
 
 def view_devices(device_list):
     # loop through and print every device — handle empty list
-    pass
+   
+    device_list = devices.copy()
+
+    print("=== View All Devices ===")
+
+    for device in device_list:
+        print(device)
 
 def count_active_inactive(device_list):
     # loop through, count Active vs Inactive, return both
