@@ -18,7 +18,17 @@ def display_menu():
 
 def add_device(device_list):
     # ask for name, IP, status — build the string, add to the list
-    pass
+    
+    print("=== Network Device Inventory ===")
+
+    device_list = []
+    
+    name = input("Device Name: ")
+    ip_add = input("IP Address: ")
+    status = input("Status: ")
+
+    device_list.append(name, "-", ip_add, "-", status)
+    devices.extend(device_list)
 
 def view_devices(device_list):
     # loop through and print every device — handle empty list
@@ -42,7 +52,7 @@ def main():
     while running:
         choice = display_menu()
 
-        choice  = input("\nChoose an option")
+        choice  = input("\nChoose an option: ")
         # # use if/elif to call the right function based on choice
         
         if choice == '1':
