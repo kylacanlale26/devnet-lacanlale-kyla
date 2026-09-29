@@ -28,10 +28,17 @@ In short, Git is the tracker, and GitHub is the storage.
 
 ## Walking through what I did
 
-[Describe, step by step, a real branch → commit → push → PR you did. Include the actual commands you used.]
+After getting the local copy of the repository, I used git checkout to create a branch named module-1 for my commits as I answer this module. I also used git branch just to make sure I am at the right branch. After confirming, I started answering and once I finished, I used git add . to stage all changes I made, then git commit -m with a message of what I did to save the staged changes. After that, I used push -u origin module-1 to push all the saved changes to the remote repository. I then went to the repository in GitHub to create a pull request. Since I am working on this module alone, there were no merge conficts and I am able to merge the changes to the repository. After that, I switched to main branch using git switch and used git pull to pull the updates in the remote repository.
 
 ```
-# paste your actual commands here
+git checkout -b <branch name>
+git branch
+git add .
+git commit -m "<message>"
+git push -u origin module-1
+git switch main
+git pull
+
 ```
 
 ---
