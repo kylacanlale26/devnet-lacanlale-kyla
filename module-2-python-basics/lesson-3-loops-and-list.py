@@ -36,20 +36,31 @@ conditonal statement
 ============================================
 MY OWN EXAMPLE(S)
 ============================================
-Write at least one working example below that you
-came up with yourself — not copied from class.
+Write at least one working example below 
+that you came up with yourself — not copied 
+from class.
 """
 
-# --- your code example goes here ---
+cards = ["spades", "clubs", "hearts", "diamonds"]
 
+for type in cards:
+    print(type)
+
+print(cards[3])
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[what's something confusing or easy to get
+wrong about this topic?]
 
+One mistake I made in this topic, 
+specifically in list, is when I want to call
+an specific value in the list. Since the
+index starts with 0, I sometimes forget that
+and get confused when the wrong value is
+diplayed.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
