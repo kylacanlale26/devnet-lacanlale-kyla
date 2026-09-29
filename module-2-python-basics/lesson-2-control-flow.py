@@ -1,24 +1,41 @@
 """
-Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Module 2 — Lesson 2: Control Flow (if / elif
+/ else)
+Student: Lacanlale, Kyla G.
+Date: 09/29/2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
 
+'if', 'elif', and 'else' are conditional 
+statements that evaluates which block of 
+code to execute based on whether the first 
+condition is true, 'if' is used for the 
+first condition that the program checks. 
+The code under the 'if' condition will be 
+executed if the conditions are met, and will
+proceed to the next condition, 'elif', if 
+not. Meanwhile, 'else' is for when none of 
+the previous conditions are met.
 
 ============================================
 KEY VOCABULARY
 ============================================
 - condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
-(add more as needed)
-
+- if / elif / else: conditional statements
+that controls the flow of the program.
+    - if: first condition the program checks
+    - elif: following condition if the 'if'
+    statement is false
+    - else: executed if none of the previous
+    conditions are met
+- comparison operator: compares two values
+that will tell whether the condition is true
+or false.
+- boolean expression: evaluates two compared
+values, whether it is true or false.
 
 ============================================
 MY OWN EXAMPLE(S)
