@@ -45,7 +45,7 @@ git pull
 
 ## A mistake I made (or one I want to avoid)
 
-[What tripped you up? A confusing error message, committing to the wrong branch, a merge conflict — explain it so a classmate reading this avoids the same mistake.]
+A mistake I always make was not saving the the changes I made locally before performng the git add. I alwasys forget that I need to save the changes first locally before staging the changes, so I get confused when I suddenly get an error message telling me that I don't have any changes to stage when I just finished my edits. When that happens, I just check the tab if it has the indication that I haven't saved the file. When I do, I just save it then I proceed to stage, commit, and push the changes.
 
 ---
 
