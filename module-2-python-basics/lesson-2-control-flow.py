@@ -40,20 +40,37 @@ values, whether it is true or false.
 ============================================
 MY OWN EXAMPLE(S)
 ============================================
-Write at least one working example below that you
-came up with yourself — not copied from class.
+Write at least one working example below 
+that you came up with yourself — not copied 
+from class.
 """
 
-# --- your code example goes here ---
+animal = "cat"
+
+if animal == "dog":
+  print("Woof!")
+elif animal == "cat":
+  print("Meow~")
+else:
+  print("Not an animal.")
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[what's something confusing or easy to get
+wrong about this topic?]
 
+One mistake I think I did wrong is using the 
+"else" for the next condition, instead of
+using it to display value mistakes. Maybe if
+the value is hardcoded, that is okay, but if
+the value has to be entered by the person,
+the 'else' will execute regardless of
+the entered value entered as long as the
+'if' condition is flase. There is really no
+controlled that way.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
